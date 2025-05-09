@@ -92,5 +92,5 @@ ngrok.set_auth_token("key")
 !wget -q -O - ipv4.icanhazip.com
 ! streamlit run app.py & npx localtunnel --port 8501
 ```
-- Create the app.py in your google colab environment
+- Create the app.py in your google colab environment (there are used private api keys for ngrok and openai usage)
 - Using the tunnel numbers provided by Streamlit go to the given UI
