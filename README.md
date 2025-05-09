@@ -2,6 +2,11 @@
 
 A complete voice-based system that detects human emotions from speech and generates empathetic replies using OpenAI's GPT-3.5-turbo. It combines classical machine learning (XGBoost), deep learning (CNN), and a natural language chatbot into a user-friendly Streamlit interface.
 
+## Running the Final&Complete Capstone Codes.ipnyb
+- Install all the required packages
+- First just download the zip.folders of 2 datasets crema.zip, Ravdess.zip
+- Adjust the path and just run the cells in order it is provided.
+
 ---
 
 ## Features
@@ -32,6 +37,13 @@ emotion-aware-chatbot/
 ├── requirements.txt
 ├── README.md
 ```
+## Running the Final&Complete Capstone Codes.ipnyb
+- Install all the required packages
+- First just download the zip.folders of 2 datasets crema.zip, Ravdess.zip
+- Adjust the path and just run the cells in order it is provided.
+  
+## Running the seperated ipnyb files provided with XGBoost and CNN zipped folders
+
 ##  Run data_preprocessing.ipynb
 - Mount Google Drive
 - Extract both datasets
