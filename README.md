@@ -33,8 +33,8 @@ emotion-aware-chatbot/
 ├── README.md
 ```
 ##  Run data_preprocessing.ipynb
-Mount Google Drive
-Extract both datasets
-Label and clean files
-Output:
-/content/drive/MyDrive/capstone_data/combined_clean_metadata.csv
+- Mount Google Drive
+- Extract both datasets
+- Label and clean files
+- Output:
+- /content/drive/MyDrive/capstone_data/combined_clean_metadata.csv
