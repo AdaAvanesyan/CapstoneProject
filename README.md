@@ -38,3 +38,47 @@ emotion-aware-chatbot/
 - Label and clean files
 - Output:
 - /content/drive/MyDrive/capstone_data/combined_clean_metadata.csv
+
+## Run feature_extraction_xgb.ipynb for XGBoost
+- Output:
+- x_xgb_features.npy
+- y_xgb_labels.npy
+- label_encoder.pkl
+- 
+## Run feature_extraction_cnn.ipynb for CNN
+- Output:
+- x_cnn_features.npy
+- y_cnn_labels.npy
+- label_encoder.pkl
+
+## Run train_xgboost.ipynb for XGBoost
+- Output:
+- xgb_model.joblib
+
+## Run train_cnn.ipynb for CNN
+- Output:
+- cnn_model.h5
+
+## Run evaluate_xgb_model.ipynb
+- Loads xgb_model.joblib
+- Prints classification report and confusion matrix
+
+## Run evaluate_cnn_model.ipynb
+- Loads cnn_model.h5
+- Prints classification report and confusion matrix
+## Chatbot UI 
+- install required packages
+```
+pip install openai==0.28
+pip install streamlit streamlit-webrtc librosa scikit-learn xgboost speechrecognition pyngrok
+from pyngrok import ngrok
+
+# Replace with ngrok token
+ngrok.set_auth_token("key")
+
+! pip install streamlit -q
+!wget -q -O - ipv4.icanhazip.com
+! streamlit run app.py & npx localtunnel --port 8501
+```
+- Create the app.py in your google colab environment
+- Using the tunnel numbers provided by Streamlit go to the given UI
