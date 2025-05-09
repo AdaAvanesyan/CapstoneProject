@@ -1,0 +1,22 @@
+# Core Libraries
+numpy
+pandas
+librosa
+scikit-learn
+joblib
+
+# Machine Learning
+xgboost
+
+# Deep Learning
+tensorflow
+
+# Visualization
+matplotlib
+seaborn
+
+# Streamlit App
+streamlit
+
+# GPT Integration
+openai
